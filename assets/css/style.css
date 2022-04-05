@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia_regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Palatino Linotype";
+    src: url(../fonts/Palatino_Linotype.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Karla";
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* header */
+/* Добавление шапки*/
+.header_wrapper{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+/* настройки текста */
+.header_text{
+    margin-right: 20px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    display: flex;
+}
+/* Выделение при наведении */
+.header_text:hover{
+    text-decoration: overline;
+}
+.header_icon{
+    margin-right: 5px;
+    margin-left: 70px;
+}
+/* настройки текста */
+.nav_s{
+    font-family: 'Karla';
+    width: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    border-radius: 9px;
+    margin-left: 5px;
+}
+
+/* mugs */
+/* Добавление главной секции */
+
+.mugs_back{
+    margin: 0 auto;
+    background: url('../img/photo/main_photo.png') no-repeat center center / cover;
+    width: 1480px;
+}
+.mugs_wrapper{
+    padding: 160px 0;
+    text-align: center;
+}
+.mugs_title{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mugs_subtitle{
+    margin: 20px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mugs_subtitle2{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mugs_btn_text{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.mugs_btn{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 231px;
+    height: 35px;
+    box-shadow: 0 0 10px rgba(29, 31, 46, 0.1);
+    border-radius: 0px;
+    background: white;
+    border: none;
+}
+.mugs_btn:hover{
+    box-shadow: 0 0 15px #FFFFFF;
+}
