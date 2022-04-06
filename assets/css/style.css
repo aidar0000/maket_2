@@ -44,6 +44,7 @@ html{
 }
 
 /* header */
+
 /* Добавление шапки*/
 .header_wrapper{
     margin: 30px 0;
@@ -70,6 +71,7 @@ html{
 .header_text:hover{
     text-decoration: overline;
 }
+/* размеры иконок */
 .header_icon{
     margin-right: 5px;
     margin-left: 70px;
@@ -89,17 +91,20 @@ html{
 }
 
 /* mugs */
-/* Добавление главной секции */
 
+/* Добавление главной секции */
+/* Задний фон и его размер */
 .mugs_back{
     margin: 0 auto;
     background: url('../img/photo/main_photo.png') no-repeat center center / cover;
     width: 1480px;
 }
+/* отступ и выравнивание по центру */
 .mugs_wrapper{
     padding: 160px 0;
     text-align: center;
 }
+/* настройки текста */
 .mugs_title{
     font-family: 'Karla';
     font-weight: 400;
@@ -110,6 +115,7 @@ html{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+/* настройки текста */
 .mugs_subtitle{
     margin: 20px 0;
     font-family: 'Karla';
@@ -119,6 +125,7 @@ html{
     text-align: center;
     color: #FFFFFF;
 }
+/* настройки текста */
 .mugs_subtitle2{
     font-family: 'Karla';
     font-weight: 400;
@@ -127,6 +134,7 @@ html{
     text-align: center;
     color: #FFFFFF;
 }
+/* настройки текста */
 .mugs_btn_text{
     font-family: 'Karla';
     font-weight: 700;
@@ -137,6 +145,7 @@ html{
     text-transform: uppercase;
     color: #1D1F2E;
 }
+/* настройки текста */
 .mugs_btn{
     margin-top: 20px;
     cursor: pointer;
@@ -147,6 +156,292 @@ html{
     background: white;
     border: none;
 }
+/* Тень от кнопки */
 .mugs_btn:hover{
     box-shadow: 0 0 15px #FFFFFF;
+}
+
+/* story */
+
+/* настройка текста по центру, отступы сверху и снизу */
+.story_wrapper{
+    text-align: center;
+    margin: 100px 0;
+}
+/* настройки текста */
+.story_title{
+    margin-bottom: 16px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #1D1F2E;
+}
+/* настройки текста */
+.story_text{
+    margin-bottom: 20px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+/* настройки текста */
+.story_a{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #A25F4B;
+}
+/* обводка текста */
+.story_a:hover{
+    text-decoration: overline;
+}
+
+/* price */
+
+/* настройка текста по центру, нижний отступ */
+.price_wrapper{
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* выравнивание по вертикали */
+.price_block{
+    display: grid;
+}
+/* настройки текста */
+.price_title{
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройка блоков по горизонтали */
+.price_blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* настройки текста */
+.name_of_mug{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+/* обводка текста */
+.name_of_mug:hover{
+    text-decoration: overline;
+}
+/* настройки текста */
+.price_sum{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);    
+}
+/* тень от фотографии */
+.photo:hover{
+    box-shadow: 0 0 20px #A25F4B;
+}
+/* расположение текста */
+.price_sums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* настройки текста */
+.mug_sum_real{
+    margin-right: 10px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #A25F4B;
+}
+/* настройки текста */
+.mug_sum_unreal{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);    
+}
+
+/* products */
+
+/* Настройка текста по центу, отступ вниз */
+.products_wrapper{
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* настройки текста */
+.products_title{
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройка блоков по горизонтали */
+.products_blocks{
+    margin-bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* настройки текста */
+.name_of_products{
+    padding-top: 35px;
+    margin-bottom: 5px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+/* обводка текста */
+.name_of_products:hover{
+    text-decoration: overline;
+}
+/* настройки текста */
+.products_sum{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);    
+}
+/* тень от фотографии */
+.photo:hover{
+    box-shadow: 0 0 20px #1f2020;
+}
+/* отступ от фотографии */
+.products_photo{
+    margin-bottom: 35px;
+}
+/* расположение текста */
+.products_sums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* настройки текста */
+.mug_sum_real{
+    margin-right: 10px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #A25F4B;
+}
+/* настройки текста */
+.mug_sum_unreal{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);    
+}
+/* отступ между блоками */
+.products_bl{
+    margin-top: 30px;
+}
+
+/* free */
+
+.free_wrapper{
+    margin-bottom: 100px;
+}
+.free_title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.free_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.free_photos{
+    display: flex;
+}
+.free_photo{
+    margin-right: 20px;
+}
+.free_photo2{
+    display: grid;
+}
+.white_all{
+    margin-top: 12px;
+}
+.free_texts{
+    margin-left: 100px;
+}
+.free_intro{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.free_title2{
+    margin: 20px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+}
+.free_text{
+    margin-bottom: 20px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.free_btn{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 173px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background: #1D1F2E;
+    border-radius: 0px;
+}
+.free_btn:hover{
+    box-shadow: 0 0 10px #1D1F2E;
 }
