@@ -136,6 +136,10 @@ html{
 }
 /* настройки текста */
 .mugs_btn_text{
+    
+}
+/* настройки текста */
+.mugs_btn{
     font-family: 'Karla';
     font-weight: 700;
     font-size: 12px;
@@ -144,9 +148,6 @@ html{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #1D1F2E;
-}
-/* настройки текста */
-.mugs_btn{
     margin-top: 20px;
     cursor: pointer;
     width: 231px;
