@@ -365,9 +365,11 @@ html{
 
 /* free */
 
+/* отступ вниз */
 .free_wrapper{
     margin-bottom: 100px;
 }
+/* настройки текста */
 .free_title{
     text-align: center;
     margin-bottom: 100px;
@@ -379,26 +381,33 @@ html{
     text-transform: uppercase;
     color: #1D1F2E;
 }
+/* настройки расположения */
 .free_content{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* выравнивание по горизонтали */
 .free_photos{
     display: flex;
 }
+/* отступ от картинок */
 .free_photo{
     margin-right: 20px;
 }
+/* выравнивание по вертикали */
 .free_photo2{
     display: grid;
 }
+/* отступ сверху */
 .white_all{
     margin-top: 12px;
 }
+/* отступ влево */
 .free_texts{
     margin-left: 100px;
 }
+/* настройки текста */
 .free_intro{
     font-family: 'Karla';
     font-weight: 400;
@@ -408,6 +417,7 @@ html{
     text-transform: uppercase;
     color: #1D1F2E;
 }
+/* настройки текста */
 .free_title2{
     margin: 20px 0;
     font-family: 'Karla';
@@ -416,6 +426,7 @@ html{
     line-height: 50px;
     color: #1D1F2E;
 }
+/* настройки текста */
 .free_text{
     margin-bottom: 20px;
     font-family: 'Karla';
@@ -425,6 +436,7 @@ html{
     line-height: 28px;
     color: rgba(29, 31, 46, 0.7);
 }
+/* настройки текста кнопки */
 .free_btn{
     font-family: 'Karla';
     font-style: normal;
@@ -442,6 +454,220 @@ html{
     background: #1D1F2E;
     border-radius: 0px;
 }
+/* тень */
 .free_btn:hover{
     box-shadow: 0 0 10px #1D1F2E;
+}
+
+/* back */
+
+/* Задний фон, его размер и выравнивание по центру */
+.backgr{
+    margin: 0 auto;
+    background: url('../img/photo/main2_photo.jpg') no-repeat center center/ cover;
+    height: 340px;
+}
+
+/* life */
+
+/* отступы вниз и вверх */
+.life_wrapper{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+/* настройки текста */
+.life_title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* Выравнивание по горизонтали */
+.life_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+/* настройки текста */
+.life_block_title{
+    margin: 20px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+}
+.life_block_title:hover{
+    text-decoration: overline;
+}
+/* настройки текста */
+.life_block_text{
+    margin-bottom: 20px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+/* настройки текста */
+.life_block_time{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* тень фотографии */
+.life_photo:hover{
+    box-shadow: 0 0 10px #1D1F2E;
+}
+
+/* bags */
+
+/* отступы и размещение */
+.bags_wrapper{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0 85px 0;
+}
+/* задний фон */
+.bags_back{
+    margin: 0 auto;
+    background: #1D1F2E;
+    border-radius: 0px;
+    width: 1500px;
+}
+/* настройки текста */
+.bags_title{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* настройки текста */
+.bags_name{
+    margin: 30px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* расположение кнопки */
+.bags_inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* настройки текста */
+.bags_input{
+    width: 350px;
+    height: 54px;
+    margin-right: 10px;
+    padding-left: 18px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid #2F303E;
+    color: #FFFFFF;
+}
+/* настройки текста */
+.bags_btn{
+    font-size: 12px;
+    width: 129px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+/* тень кнопки */
+.bags_btn:hover{
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+/* footer */
+
+/* расположение объектов в футере */
+.footer_wrapper{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* настройки текста */
+.footer_title{
+    margin-top: 30px;
+    margin-bottom: 75px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+/* настройки текста */
+.footer_inc{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+/* настройки текста */
+.footer_name{
+    margin-bottom: 30px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+/* настройки текста */
+.footer_link{
+    margin-bottom: 15px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+.footer_link:hover{
+    text-decoration: overline;
+}
+/* настройки текста */
+.footer_text{
+    margin: 30px 0;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+}
+/* настройки текста */
+.footer_text2{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+.footer_bl{
+    display: grid;
 }
